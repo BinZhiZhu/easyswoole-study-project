@@ -1,0 +1,222 @@
+[2021-04-06 22:52:05 #14053.8]	INFO	Server is shutdown now
+
+===================================================================
+===================================================================
+===================================================================
+===================================================================
+===================================================================
+ [FATAL ERROR]: all coroutines (count: 1) are asleep - deadlock!
+ [FATAL ERROR]: all coroutines (count: 1) are asleep - deadlock!
+===================================================================
+
+ [FATAL ERROR]: all coroutines (count: 1) are asleep - deadlock!
+===================================================================
+
+===================================================================
+
+ [FATAL ERROR]: all coroutines (count: 1) are asleep - deadlock!
+ [Coroutine-1]
+ [FATAL ERROR]: all coroutines (count: 1) are asleep - deadlock!
+--------------------------------------------------------------------
+
+===================================================================
+
+===================================================================
+
+ [Coroutine-1]
+ [Coroutine-1]
+ [Coroutine-1]#0  
+--------------------------------------------------------------------
+
+ [Coroutine-1]
+--------------------------------------------------------------------
+Swoole\Coroutine\Socket
+--------------------------------------------------------------------
+#0  #0  ->
+--------------------------------------------------------------------
+accept(#0  ) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:38]
+Swoole\Coroutine\SocketSwoole\Coroutine\SocketSwoole\Coroutine\Socket->#1  ->EasySwoole\Component\Process\Socket\AbstractUnixProcessaccept(#0  ->) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:38]
+->accept(accept(Swoole\Coroutine\Socket#1  ->) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:38]
+EasySwoole\Component\Process\Socket\AbstractUnixProcessrun(accept() called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:38]
+) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/task/src/Worker.php:71]
+) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:38]
+#1  ->EasySwoole\Component\Process\Socket\AbstractUnixProcess#1  run(#1  EasySwoole\Component\Process\Socket\AbstractUnixProcess->->#2  run(run() called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/task/src/Worker.php:71]
+) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/bridge/src/BridgeProcess.php:24]
+#2  EasySwoole\Component\Process\Socket\AbstractUnixProcessEasySwoole\Task\Worker->EasySwoole\Task\Worker#2  ) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/task/src/Worker.php:71]
+->#2  run(EasySwoole\Task\Workerrun() called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/task/src/Worker.php:71]
+->->) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/AbstractProcess.php:149]
+run(run(#2  EasySwoole\Bridge\BridgeProcessEasySwoole\Task\Worker) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/AbstractProcess.php:149]
+->) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/AbstractProcess.php:149]
+->
+
+
+run(run() called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/AbstractProcess.php:149]
+) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/AbstractProcess.php:149]
+
+
+
+===================================================================
+===================================================================
+ [FATAL ERROR]: all coroutines (count: 1) are asleep - deadlock!
+===================================================================
+ [FATAL ERROR]: all coroutines (count: 1) are asleep - deadlock!
+===================================================================
+ [FATAL ERROR]: all coroutines (count: 1) are asleep - deadlock!
+===================================================================
+
+===================================================================
+
+===================================================================
+
+ [Coroutine-1]
+ [Coroutine-1]
+ [FATAL ERROR]: all coroutines (count: 1) are asleep - deadlock!
+===================================================================
+--------------------------------------------------------------------
+
+===================================================================
+
+--------------------------------------------------------------------
+
+ [FATAL ERROR]: all coroutines (count: 1) are asleep - deadlock!#0  
+===================================================================
+
+ [Coroutine-1]#0  
+--------------------------------------------------------------------
+
+ [Coroutine-1]
+ [Coroutine-1]Swoole\Coroutine\Socket#0  
+--------------------------------------------------------------------
+->Swoole\Coroutine\Socket#0  accept(Swoole\Coroutine\Socket
+--------------------------------------------------------------------
+->#0  ) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:38]
+->accept(Swoole\Coroutine\Socketaccept(->#1  ) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:38]
+) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:38]
+Swoole\Coroutine\Socket#1  EasySwoole\Component\Process\Socket\AbstractUnixProcess#1  ->->EasySwoole\Component\Process\Socket\AbstractUnixProcessrun(accept(->EasySwoole\Component\Process\Socket\AbstractUnixProcessaccept() called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/bridge/src/BridgeProcess.php:24]
+) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:38]
+#2  ->EasySwoole\Bridge\BridgeProcess) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:38]
+run(#1  #1  run(->) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/task/src/Worker.php:71]
+EasySwoole\Component\Process\Socket\AbstractUnixProcess) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/task/src/Worker.php:71]
+run(EasySwoole\Component\Process\Socket\AbstractUnixProcess#2  #2  EasySwoole\Task\Worker) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/AbstractProcess.php:149]
+->
+->->EasySwoole\Task\Workerrun(run(run(->) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/task/src/Worker.php:71]
+run(#2  ) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/AbstractProcess.php:149]
+) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/AbstractProcess.php:149]
+
+EasySwoole\Task\Worker
+) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/task/src/Worker.php:71]
+->#2  EasySwoole\Task\Worker->run(run() called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/AbstractProcess.php:149]
+) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/AbstractProcess.php:149]
+
+
+[2021-04-06 22:52:34 #30983.8]	INFO	Server is shutdown now
+
+===================================================================
+===================================================================
+ [FATAL ERROR]: all coroutines (count: 1) are asleep - deadlock!
+ [FATAL ERROR]: all coroutines (count: 1) are asleep - deadlock!
+===================================================================
+===================================================================
+
+===================================================================
+
+ [FATAL ERROR]: all coroutines (count: 1) are asleep - deadlock!
+===================================================================
+
+ [Coroutine-1]
+--------------------------------------------------------------------
+
+===================================================================
+ [Coroutine-1]
+--------------------------------------------------------------------
+
+===================================================================
+ [Coroutine-1]#0  
+--------------------------------------------------------------------
+Swoole\Coroutine\Socket
+ [FATAL ERROR]: all coroutines (count: 1) are asleep - deadlock!#0  ->
+ [FATAL ERROR]: all coroutines (count: 1) are asleep - deadlock!
+===================================================================
+accept(
+===================================================================
+Swoole\Coroutine\Socket#0  ->) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:38]
+Swoole\Coroutine\Socket
+ [Coroutine-1]
+ [Coroutine-1]->
+--------------------------------------------------------------------
+#1  
+--------------------------------------------------------------------
+accept(EasySwoole\Component\Process\Socket\AbstractUnixProcess) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:38]
+->#1  run(accept() called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/task/src/Worker.php:71]
+#0  EasySwoole\Component\Process\Socket\AbstractUnixProcess) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:38]
+#0  Swoole\Coroutine\Socket#2  Swoole\Coroutine\Socket->EasySwoole\Task\Workeraccept(->) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:38]
+#1  #1  ->run(EasySwoole\Component\Process\Socket\AbstractUnixProcessaccept(EasySwoole\Component\Process\Socket\AbstractUnixProcess->) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/AbstractProcess.php:149]
+->) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:38]
+run(->) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/task/src/Worker.php:71]
+run(
+run(#2  #1  ) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/task/src/Worker.php:71]
+EasySwoole\Task\Worker#2  ->) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/task/src/Worker.php:71]
+EasySwoole\Task\WorkerEasySwoole\Component\Process\Socket\AbstractUnixProcessrun(#2  ->->run() called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/AbstractProcess.php:149]
+run() called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/bridge/src/BridgeProcess.php:24]
+EasySwoole\Task\Worker#2  ->) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/AbstractProcess.php:149]
+EasySwoole\Bridge\BridgeProcessrun(
+
+->) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/AbstractProcess.php:149]
+run(
+) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/AbstractProcess.php:149]
+
+
+===================================================================
+ [FATAL ERROR]: all coroutines (count: 1) are asleep - deadlock!
+===================================================================
+===================================================================
+
+ [FATAL ERROR]: all coroutines (count: 1) are asleep - deadlock!
+ [Coroutine-1]
+===================================================================
+
+===================================================================
+ [Coroutine-1]
+ [FATAL ERROR]: all coroutines (count: 1) are asleep - deadlock!
+--------------------------------------------------------------------
+
+--------------------------------------------------------------------
+
+===================================================================
+#0  #0  
+ [Coroutine-1]Swoole\Coroutine\Socket
+--------------------------------------------------------------------
+->#0  Swoole\Coroutine\SocketSwoole\Coroutine\Socket->->accept() called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:38]
+accept(accept() called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:38]
+#1  #1  
+===================================================================EasySwoole\Component\Process\Socket\AbstractUnixProcess) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:38]
+EasySwoole\Component\Process\Socket\AbstractUnixProcess->#1  
+ [FATAL ERROR]: all coroutines (count: 1) are asleep - deadlock!->
+===================================================================run(
+===================================================================
+run(EasySwoole\Component\Process\Socket\AbstractUnixProcess
+ [FATAL ERROR]: all coroutines (count: 1) are asleep - deadlock!) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/task/src/Worker.php:71]
+) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/task/src/Worker.php:71]
+->
+===================================================================
+run(
+ [Coroutine-1]#2  
+ [Coroutine-1]) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/bridge/src/BridgeProcess.php:24]
+#2  
+--------------------------------------------------------------------
+
+--------------------------------------------------------------------
+EasySwoole\Task\Worker#0  #2  #0  ->Swoole\Coroutine\SocketEasySwoole\Task\Worker->run(EasySwoole\Bridge\BridgeProcess) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/AbstractProcess.php:149]
+->Swoole\Coroutine\Socketaccept(
+run(->) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/AbstractProcess.php:149]
+run(->) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:38]
+) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/AbstractProcess.php:149]
+
+accept(
+#1  EasySwoole\Component\Process\Socket\AbstractUnixProcess) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/Socket/AbstractUnixProcess.php:38]
+->#1  run(EasySwoole\Component\Process\Socket\AbstractUnixProcess) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/task/src/Worker.php:71]
+->run(#2  ) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/task/src/Worker.php:71]
+EasySwoole\Task\Worker#2  ->run(EasySwoole\Task\Worker) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/AbstractProcess.php:149]
+->run(
+) called at [/Users/apple/docker/wwwroot/easyweoole-study-project/vendor/easyswoole/component/src/Process/AbstractProcess.php:149]
+
